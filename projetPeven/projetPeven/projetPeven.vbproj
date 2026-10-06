@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FAB6F1E1-A2D0-46A3-8F1A-06F9C916DF9F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>projetPeven.My.MyApplication</StartupObject>
+    <RootNamespace>projetPeven</RootNamespace>
+    <AssemblyName>projetPeven</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>projetPeven.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>projetPeven.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormComptable.Designer.vb">
+      <DependentUpon>FormComptable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormComptable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCont.Designer.vb">
+      <DependentUpon>FormCont.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormCont.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormgerAdh.Designer.vb">
+      <DependentUpon>FormgerAdh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormgerAdh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdh.Designer.vb">
+      <DependentUpon>FormAdh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formgeres.Designer.vb">
+      <DependentUpon>Formgeres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formgeres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRes.Designer.vb">
+      <DependentUpon>FormRes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormRes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDons.Designer.vb">
+      <DependentUpon>FormDons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formgerer.Designer.vb">
+      <DependentUpon>Formgerer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formgerer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAccueil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAccueil.Designer.vb">
+      <DependentUpon>FormAccueil.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFamille.Designer.vb">
+      <DependentUpon>FormFamille.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormFamille.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormComptable.resx">
+      <DependentUpon>FormComptable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCont.resx">
+      <DependentUpon>FormCont.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormgerAdh.resx">
+      <DependentUpon>FormgerAdh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdh.resx">
+      <DependentUpon>FormAdh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formgeres.resx">
+      <DependentUpon>Formgeres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRes.resx">
+      <DependentUpon>FormRes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDons.resx">
+      <DependentUpon>FormDons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAccueil.resx">
+      <DependentUpon>FormAccueil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFamille.resx">
+      <DependentUpon>FormFamille.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formgerer.resx">
+      <DependentUpon>Formgerer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
